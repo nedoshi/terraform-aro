@@ -87,8 +87,8 @@ resource "azurerm_linux_virtual_machine" "jumphost-vm" {
   source_image_reference {
     publisher = "RedHat"
     offer     = "RHEL"
-    sku       = "8.2"
-    version   = "8.2.2021040911"
+    sku       = "9.1"
+    version   = "9.1.2022112113"
   }
 
   provisioner "remote-exec" {
