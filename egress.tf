@@ -113,7 +113,9 @@ resource "azurerm_firewall_application_rule_collection" "firewall_app_rules_aro"
       "registry.access.redhat.com",
       "*.redhat.com",
       "*.openshift.com",
-      "*.microsoft.com"
+      "*.microsoft.com",
+      "*.google.com",
+      "*.bing.com"
     ]
     protocol {
       port = "443"
